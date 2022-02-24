@@ -138,3 +138,5 @@ $('input').hide();
 // this will hide the input element
 setTimeout(() => $('input').show(), 2000);
 // this will set the timer to display(make appear) the input element after 2000 milliseconds
+
+

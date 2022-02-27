@@ -23,9 +23,11 @@ let div = $('.my-class');
 let ul = $('ul');
 // grabs the ul element
 
+
 console.log(p);
 console.log(div);
 console.log(ul);
+
 
 /* ways that jquery interacts w/ the elements:
  * Jquery doesnt return an element the same way using document.getElementById
@@ -118,11 +120,11 @@ div.after('<p>paragraph that was added after the div</p>');
  * empty method = removes all the children of the selected element from the dom
  */
 
-div.empty();
-// the div still exist
-// but it emptied the <p> inside of the div
-ul.remove();
-// remove the unordered list element altogether
+// div.empty();
+// // the div still exist
+// // but it emptied the <p> inside of the div
+// ul.remove();
+// // remove the unordered list element altogether
 
 
 
@@ -134,9 +136,9 @@ ul.remove();
  * show = Display the matched elements.
  */
 
-$('input').hide();
-// this will hide the input element
-setTimeout(() => $('input').show(), 2000);
-// this will set the timer to display(make appear) the input element after 2000 milliseconds
+// $('input').hide();
+// // this will hide the input element
+// setTimeout(() => $('input').show(), 2000);
+// // this will set the timer to display(make appear) the input element after 2000 milliseconds
 
 
